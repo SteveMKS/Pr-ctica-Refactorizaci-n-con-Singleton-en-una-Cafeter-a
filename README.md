@@ -1,8 +1,7 @@
-# Practica Singleton Cafeteria
-Alvarez Armenta Steve Jovanni - 21211909
+# Alvarez Armenta Steve Jovanni - 21211909
+### Practica Cafeteria - Código corregido con Singleton
 
-Practica - Código corregido con Singleton
-
+```csharp
 using System;
 using System.Collections.Generic;
 
@@ -67,15 +66,12 @@ namespace CafeteriaSingleton
     {
         static void Main(string[] args)
         {
-            // Reemplazamos todas las creaciones de instancias directas.
             var registroBarista1 = RegistroPedidos.ObtenerInstancia();
             registroBarista1.AgregarPedido(new Pedido("Ana", "Latte"));
 
             var registroBarista2 = RegistroPedidos.ObtenerInstancia();
             registroBarista2.AgregarPedido(new Pedido("Luis", "Café Americano"));
 
-
-            // ✅ Ahora todos los baristas ven la misma lista de pedidos.
             Console.WriteLine("\nRegistro del barista 1:");
             registroBarista1.MostrarPedidos();
 
@@ -86,6 +82,7 @@ namespace CafeteriaSingleton
         }
     }
 }
+
 
 <img width="1352" height="406" alt="image" src="https://github.com/user-attachments/assets/43dd5e0b-6320-4ce6-8ad5-cf012f41bd21" />
 
