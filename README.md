@@ -82,7 +82,7 @@ namespace CafeteriaSingleton
         }
     }
 }
-
+```
 
 <img width="1352" height="406" alt="image" src="https://github.com/user-attachments/assets/43dd5e0b-6320-4ce6-8ad5-cf012f41bd21" />
 
