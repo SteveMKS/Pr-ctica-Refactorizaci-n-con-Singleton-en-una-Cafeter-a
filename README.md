@@ -1,4 +1,6 @@
 # Practica Singleton Cafeteria
+Alvarez Armenta Steve Jovanni - 21211909
+
 Practica - Código corregido con Singleton
 
 using System;
